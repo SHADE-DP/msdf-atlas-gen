@@ -4,7 +4,7 @@ project "msdf-atlas-gen"
 	kind "StaticLib"
 	language "C++"
 	cppdialect "C++latest"
-    staticruntime "on"
+	staticruntime "off"
 	warnings "Off"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
