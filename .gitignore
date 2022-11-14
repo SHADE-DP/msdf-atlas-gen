@@ -354,3 +354,9 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 SHADE_Sandbox_y2/imgui.ini
+
+*.vcxproj
+
+msdf-atlas-gen.vcxproj.filters
+
+*.filters
